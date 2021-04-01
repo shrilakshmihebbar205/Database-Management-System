@@ -1,8 +1,10 @@
 # Database-Management-System
 Beneficial to beauty parlors in keeping customer data, hiring employees, taking care of bookings and promoting their services to public.
-Introduction
+
+# Introduction
 The scenario here is of a beauty parlour management system. 
-Relational tables:
+
+# Relational tables:
 There are 10 relational tables which describe the data model. First is the parlour table, which has 3 
 attributes namely branch code, branch venue and branch type. Branch code will be unique for every 
 branch, and acts as primary key for the table. branch type refers to two different arena that is for 
@@ -11,7 +13,8 @@ table is the owner’s table which contains details of the owner belonging to pa
 Owner has attributes like first and last name, city, gender, and a unique attribute called o_id which 
 designates to the branch which he owns. Similarly there are tables for packages, services, staffs,
 staff skills, customers and appointments.
-Relationships:
+
+# Relationships:
 Parlour owned by owner. this is a 1 to 1 relationship. Here, primary key of parlour acts as foreign 
 key to owner attribute.
 Parlour offers packages, is a 1 to many relationship. Since 1 parlour offers many packages. Here, 
