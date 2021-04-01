@@ -1,0 +1,10 @@
+\d beautyparlor;
+\d owner;
+\d packages;
+\d services;
+\d staffs;
+\d staff_skill;
+\d customers;
+\d appointments;
+\d payment;
+\d records;
